@@ -27,7 +27,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="rollTheDice" destination="vXZ-lx-hvc" eventType="touchUpInside" id="3EN-D4-LT4"/>
+                                    <segue destination="qUR-90-axl" kind="modal" id="c2i-A3-mzU"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -37,9 +37,6 @@
                             <constraint firstAttribute="centerY" secondItem="0CI-ro-g3x" secondAttribute="centerY" id="icH-2t-PDN"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <segue destination="qUR-90-axl" kind="modal" identifier="rollDice" id="4LB-Rm-DOr"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
@@ -109,7 +106,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ckr-Co-O4G" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="o8S-Co-8tn"/>
             </objects>
-            <point key="canvasLocation" x="645" y="879"/>
+            <point key="canvasLocation" x="794" y="872"/>
         </scene>
     </scenes>
     <resources>
